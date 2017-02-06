@@ -342,7 +342,7 @@ a
     }
     .mobileBg 
     { 
-        background:url(images/mobile-nav-bg.jpg) center; 
+        background:url(/images/mobile-nav-bg.jpg) center; 
         padding:30px 0 !important; 
     } 
     #mobileMenu.clicked 
