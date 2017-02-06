@@ -61,10 +61,11 @@ a
         }
     #phoneBox
     {
-        float:right;
-        padding-right:40px;
+        float:left;
+        padding-left:40px;
         font-size:18px;
         color:#0D223F;
+        line-height:60px; 
     }
     
 #bgImg 
