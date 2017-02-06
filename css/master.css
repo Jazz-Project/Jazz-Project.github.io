@@ -301,6 +301,10 @@ a
 
 @media screen and (max-width:767px)
 {
+    html, body
+    {
+        transition:all .4s ease-in-out;
+    }
     html.clicked, body.clicked 
     {  
         width:100%; 
@@ -323,13 +327,13 @@ a
     }  
     #mobileMenu 
     { 
-        position:fixed; 
+        position:absolute; 
         height:100%; 
         width:0; 
         background:#fff; 
         right:0; 
         overflow:auto; 
-        z-index:12; 
+        z-index:20; 
         transition:all .4s ease-in-out; 
         letter-spacing:1px; 
     }
