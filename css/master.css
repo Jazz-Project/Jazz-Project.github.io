@@ -416,6 +416,14 @@ a
         {
             height:auto;
         }
+            .leftSectionText
+            {
+                display:block;
+            }
+            .rightSectionText
+            {
+                display:block;
+            }
         #scrollBtn 
         {
             top:78%;
