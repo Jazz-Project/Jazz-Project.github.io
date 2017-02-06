@@ -295,6 +295,10 @@ a
     {
         min-width:1100px;
     }
+    .lvlOneHide
+    {
+        display:none;
+    }
     .mainSection
     {
         height:auto;
