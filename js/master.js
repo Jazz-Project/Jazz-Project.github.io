@@ -108,7 +108,7 @@ function changeMobileSection(e)
     $('html, body').animate({
     scrollTop: $('.'+sectionName).offset().top - 50
     }, 500);
-    $('#mobileMenu, body, html').removeClass('clicked');
+    $('#mobileMenu, body, html').toggleClass('clicked');
 }
 
 
