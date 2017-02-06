@@ -26,25 +26,6 @@ $(document).ready(function()
     
     /* End Function for scroll to top Btn */
     
-    /* Start Hide or Show Header on Scroll */
-    
-    var topNav = 20;
-    
-    $(window).scroll(function() 
-    {
-        var windowPage = $(this).scrollTop();
-        if (windowPage > topNav) 
-        {
-            $('#topNavFull').slideUp();
-        } 
-        else 
-        {
-           $('#topNavFull').slideDown();
-        }
-        topNav = windowPage;
-    });
-    
-    /* End Hide or Show Header on Scroll */
     
     /* Start add activeBtn for sideBtn */
     $('.sideBtn').click(function()
@@ -102,6 +83,15 @@ $(document).ready(function()
     
     /* End add activeBtn for sideBtn */
     
+    /* Start Mobile Nav */
+    
+    $('#mobileMenuBtn').click(function(e)
+    {
+        $('#mobileMenu, body, html').toggleClass('clicked');
+    });
+    
+    /* End Mobile Nav */
+    
 });
 
 function changeSection(e)
@@ -111,6 +101,14 @@ function changeSection(e)
     scrollTop: $('.'+sectionName).offset().top - 50
     }, 500);
     $('.sideBtn').removeClass('activeBtn');
+}
+function changeMobileSection(e)
+{
+    var sectionName = $(e).attr('data-name');
+    $('html, body').animate({
+    scrollTop: $('.'+sectionName).offset().top - 50
+    }, 500);
+    $('#mobileMenu, body, html').removeClass('clicked');
 }
 
 
