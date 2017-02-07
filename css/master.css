@@ -432,6 +432,14 @@ a
         {
             height:auto;
         }
+            .leftSectionText
+            {
+                text-align:justify; 
+            }
+            .rightSectionText
+            {
+                text-align:justify;
+            }
         #scrollBtn 
         {
             top:78%;
