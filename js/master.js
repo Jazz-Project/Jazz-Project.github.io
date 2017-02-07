@@ -38,8 +38,8 @@ $(document).ready(function()
     $('.section1').waypoint(function() {
         $('.sideBtn').removeClass('activeBtn');
         $('.sectionOne').addClass('activeBtn');
-        $('.leftSectionText').removeClass('fadeInLeftBig animated').hide();
-        $('.rightSectionText').removeClass('fadeInRightBig animated').hide();
+        $('.leftSectionText').removeClass('fadeInLeftBig animated').css({ 'visibility':'hidden' });
+        $('.rightSectionText').removeClass('fadeInRightBig animated').css({ 'visibility':'hidden' });
         $('.leftSectionText').addClass('fadeOutLeftBig');
         $('.rightSectionText').addClass('fadeOutRightBig');
         },
@@ -49,8 +49,8 @@ $(document).ready(function()
     $('.section2').waypoint(function() {
         $('.sideBtn').removeClass('activeBtn');
         $('.sectionTwo').addClass('activeBtn');
-        $('.section2 .leftSectionText').addClass('fadeInLeftBig animated').show();
-        $('.section2 .rightSectionText').addClass('fadeInRightBig animated').show();
+        $('.section2 .leftSectionText').addClass('fadeInLeftBig animated').css({ 'visibility':'visible' });
+        $('.section2 .rightSectionText').addClass('fadeInRightBig animated').css({ 'visibility':'visible' });
         $('.leftSectionText').removeClass('fadeOutLeftBig');
         $('.rightSectionText').removeClass('fadeOutRightBig');
         },
@@ -60,8 +60,8 @@ $(document).ready(function()
     $('.section3').waypoint(function() {
         $('.sideBtn').removeClass('activeBtn');
         $('.sectionThree').addClass('activeBtn');
-        $('.section3 .leftSectionText').addClass('fadeInLeftBig animated').show();
-        $('.section3 .rightSectionText').addClass('fadeInRightBig animated').show();
+        $('.section3 .leftSectionText').addClass('fadeInLeftBig animated').css({ 'visibility':'visible' });
+        $('.section3 .rightSectionText').addClass('fadeInRightBig animated').css({ 'visibility':'visible' });
         $('.leftSectionText').removeClass('fadeOutLeftBig');
         $('.rightSectionText').removeClass('fadeOutRightBig');
         },
@@ -71,8 +71,8 @@ $(document).ready(function()
     $('.section4').waypoint(function() {
         $('.sideBtn').removeClass('activeBtn');
         $('.sectionFour').addClass('activeBtn');
-        $('.section4 .leftSectionText').addClass('fadeInLeftBig animated').show();
-        $('.section4 .rightSectionText').addClass('fadeInRightBig animated').show();
+        $('.section4 .leftSectionText').addClass('fadeInLeftBig animated').css({ 'visibility':'visible' });
+        $('.section4 .rightSectionText').addClass('fadeInRightBig animated').css({ 'visibility':'visible' });
         $('.leftSectionText').removeClass('fadeOutLeftBig');
         $('.rightSectionText').removeClass('fadeOutRightBig');
         },

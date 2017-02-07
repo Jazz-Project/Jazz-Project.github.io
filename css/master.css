@@ -200,13 +200,13 @@ a
         {
             left:35px;
             top:0;
-            display:none; 
+            visibility:hidden; 
         }
         .rightSectionText 
         { 
             right:0;
             top:20px;
-            display:none;
+            visibility:hidden;
         }
             .subSectionTitle 
             { 
@@ -382,7 +382,6 @@ a
             position:relative;
             padding:10px 50px;
             text-align:center;
-            display:block;
         }
         .rightSectionText
         {
@@ -392,7 +391,6 @@ a
             width:98%;
             padding:10px 0;
             top:0;
-            display:block;
         }
         li
         {
