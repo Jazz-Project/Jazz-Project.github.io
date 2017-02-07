@@ -231,7 +231,7 @@ a
                 }
     .bottomImgHolder
     {
-        width:100%;
+        width:90%;
         height:150px;
         overflow-x:scroll;
         overflow-y:hidden;
@@ -382,6 +382,7 @@ a
             position:relative;
             padding:10px 50px;
             text-align:center;
+            display:block;
         }
         .rightSectionText
         {
@@ -391,6 +392,7 @@ a
             width:98%;
             padding:10px 0;
             top:0;
+            display:block;
         }
         li
         {
