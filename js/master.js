@@ -111,4 +111,11 @@ function changeMobileSection(e)
     $('#mobileMenu, body, html').toggleClass('clicked');
 }
 
+function changeImg(data)
+{
+	var imgPath = jQuery(data).attr('data-img');
+	var largeDiv = jQuery(data).attr('data-change');
+	var largeImg = jQuery('#data-largeImg' + largeDiv);
 
+	largeImg.attr('src', imgPath);
+}

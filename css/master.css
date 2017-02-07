@@ -229,6 +229,23 @@ a
                 {
                     padding-right:30px;
                 }
+    .bottomImgHolder
+    {
+        width:90%;
+        margin:0 auto;
+        height:150px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+        white-space:nowrap;
+    }
+        .photoContainer
+        {
+            display:inline-block; height:150px; overflow:hidden; 
+        }
+            .photoContainer img
+            {
+                height:80%;    
+            }
     
 .section1
 {
