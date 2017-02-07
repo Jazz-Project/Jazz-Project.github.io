@@ -150,12 +150,14 @@ a
             border-top:3px solid #fff;
             border-bottom:3px solid #fff;
             margin:0;
+            -webkit-animation:fadeInDown 1s;
         }
         #subTitle
         {
             font-size:18px;
             padding:10px 0;
             top:60%;
+            -webkit-animation:bounceInDown 1s;
         }
         .sectionTitle h2 
         {
@@ -168,6 +170,7 @@ a
         #scrollBtn 
         {
             top:70%;
+            -webkit-animation:fadeInUp 1s;
         }
             #scrollBarLeft
             {
