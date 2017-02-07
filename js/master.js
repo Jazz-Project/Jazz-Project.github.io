@@ -87,7 +87,7 @@ $(document).ready(function()
     
     $('#mobileMenuBtn').click(function(e)
     {
-        $('#mobileMenu, body, html').toggleClass('clicked');
+        $('#mobileMenu').toggleClass('clicked');
     });
     
     /* End Mobile Nav */
