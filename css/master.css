@@ -398,7 +398,7 @@ a
         {
             text-align:left; 
         }
-        ..bottomImgHolder
+        .bottomImgHolder
         {
             position:relative;
             bottom:0;
