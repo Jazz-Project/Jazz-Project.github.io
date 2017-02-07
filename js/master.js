@@ -55,7 +55,7 @@ $(document).ready(function()
         $('.rightSectionText').removeClass('fadeOutRightBig');
         },
         {
-            offset: '20%'
+            offset: '40%'
     });
     $('.section3').waypoint(function() {
         $('.sideBtn').removeClass('activeBtn');
@@ -66,7 +66,7 @@ $(document).ready(function()
         $('.rightSectionText').removeClass('fadeOutRightBig');
         },
         {
-            offset: '20%'
+            offset: '40%'
     });
     $('.section4').waypoint(function() {
         $('.sideBtn').removeClass('activeBtn');
@@ -77,7 +77,7 @@ $(document).ready(function()
         $('.rightSectionText').removeClass('fadeOutRightBig');
         },
         {
-            offset: '20%'
+            offset: '40%'
     });
          
     

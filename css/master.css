@@ -267,42 +267,6 @@ a
 
 @media screen and (max-width:990px)
 {
-    .mainSection
-    {
-        height:140vh;
-    }
-    .lvlOneDivide 
-    { 
-        display:block; 
-    }
-    .sectionText
-    {
-        height:83%;
-    }
-        .leftSectionText
-        {
-            left:0;
-            position:relative;
-            padding:10px 50px;
-            text-align:center;
-        }
-        .rightSectionText
-        {
-            left:0;
-            position:relative;
-            text-align:center;
-            width:98%;
-            padding:10px 0;
-            top:0;
-        }
-        li
-        {
-            text-align:left; 
-        }
-}
-
-@media screen and (max-width:767px)
-{
     html, body
     {
         transition:all .4s ease-in-out;
@@ -380,6 +344,42 @@ a
         background:#222; 
         margin:0 3%; 
     }
+    .mainSection
+    {
+        height:140vh;
+    }
+    .lvlOneDivide 
+    { 
+        display:block; 
+    }
+    .sectionText
+    {
+        height:83%;
+    }
+        .leftSectionText
+        {
+            left:0;
+            position:relative;
+            padding:10px 50px;
+            text-align:center;
+        }
+        .rightSectionText
+        {
+            left:0;
+            position:relative;
+            text-align:center;
+            width:98%;
+            padding:10px 0;
+            top:0;
+        }
+        li
+        {
+            text-align:left; 
+        }
+}
+
+@media screen and (max-width:767px)
+{
 
     #mainLogo
     {
