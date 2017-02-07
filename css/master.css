@@ -232,11 +232,13 @@ a
     .bottomImgHolder
     {
         width:90%;
-        margin:0 auto;
         height:150px;
         overflow-x:scroll;
         overflow-y:hidden;
         white-space:nowrap;
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
     }
         .photoContainer
         {
