@@ -276,16 +276,67 @@ a
     display:none; 
 }
 
-#mobileMenu
-{
-    width:0; 
-    overflow:hidden; 
-    height:0; 
-}
-
 #mobileMenuBtn 
-{
-    display:none;  
+{ 
+    display:block; 
+    color:#0D223F; 
+    float:right; 
+    padding-right:25px; 
+    font-size:22px;
+    line-height:60px; 
+}  
+#mobileMenu 
+{ 
+    position:fixed; 
+    height:100%; 
+    width:0; 
+    background:#fff; 
+    right:0; 
+    overflow:auto; 
+    z-index:20; 
+    transition:all .4s ease-in-out; 
+    letter-spacing:1px; 
+    top:60px;
+}
+.mobileBg 
+{ 
+    background:url(/images/mobile-nav-bg.jpg)no-repeat center; 
+    padding:30px 0 !important; 
+    background-position:-155px 0px;
+    border-bottom:none;
+} 
+#mobileMenu.clicked 
+{ 
+    width:250px; 
+    transition:all .4s ease-in-out; 
+    border-left:1px solid #000; 
+}
+.mobileMenuBox 
+{ 
+    padding:10px 15px; 
+    color:#000; 
+    font-size:14px; 
+    text-transform:uppercase; 
+    border-bottom:1px solid #000; 
+    min-width:250px; 
+    cursor:pointer; 
+}
+#socialMediaMobile 
+{ 
+    text-align:center; 
+}
+.socialMobileMenuBtn 
+{ 
+    display:inline-block; 
+    text-align:center; 
+    font-size:18px; 
+    color:#fff; 
+    width:30px; 
+    height:30px; 
+    line-height:30px; 
+    border-radius:50%; 
+    background:#222; 
+    margin:0 3%; 
 }
 
 @media screen and (max-width:990px)
@@ -293,69 +344,6 @@ a
     #sideNav 
     {
         display:none;
-    }
-    
-    #mobileMenuBtn 
-    { 
-        display:block; 
-        color:#0D223F; 
-        float:right; 
-        padding-right:25px; 
-        font-size:22px;
-        line-height:60px; 
-    }  
-    #mobileMenu 
-    { 
-        position:fixed; 
-        height:100%; 
-        width:0; 
-        background:#fff; 
-        right:0; 
-        overflow:auto; 
-        z-index:20; 
-        transition:all .4s ease-in-out; 
-        letter-spacing:1px; 
-        top:60px;
-    }
-    .mobileBg 
-    { 
-        background:url(/images/mobile-nav-bg.jpg)no-repeat center; 
-        padding:30px 0 !important; 
-        background-position:-155px 0px;
-        border-bottom:none;
-    } 
-    #mobileMenu.clicked 
-    { 
-        width:250px; 
-        transition:all .4s ease-in-out; 
-        border-left:1px solid #000; 
-    }
-    .mobileMenuBox 
-    { 
-        padding:10px 15px; 
-        color:#000; 
-        font-size:14px; 
-        text-transform:uppercase; 
-        border-bottom:1px solid #000; 
-        min-width:250px; 
-        cursor:pointer; 
-    }
-    #socialMediaMobile 
-    { 
-        text-align:center; 
-    }
-    .socialMobileMenuBtn 
-    { 
-        display:inline-block; 
-        text-align:center; 
-        font-size:18px; 
-        color:#fff; 
-        width:30px; 
-        height:30px; 
-        line-height:30px; 
-        border-radius:50%; 
-        background:#222; 
-        margin:0 3%; 
     }
     .mainSection
     {
