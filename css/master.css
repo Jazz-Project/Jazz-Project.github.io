@@ -436,6 +436,10 @@ a
             {
                 text-align:justify; 
             }
+                .sectionTitle h2
+                {
+                    text-align:center; 
+                }
             .rightSectionText
             {
                 text-align:justify;
