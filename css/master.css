@@ -151,6 +151,8 @@ a
             border-bottom:3px solid #fff;
             margin:0;
             -webkit-animation:fadeInDown 1s;
+            -moz-animation:fadeInDown 1s;
+            animation:fadeInDown 1s;
         }
         #subTitle
         {
@@ -158,6 +160,8 @@ a
             padding:10px 0;
             top:60%;
             -webkit-animation:bounceInDown 1s;
+            -moz-animation:bounceInDown 1s;
+            animation:bounceInDown 1s;
         }
         .sectionTitle h2 
         {
@@ -171,6 +175,8 @@ a
         {
             top:70%;
             -webkit-animation:fadeInUp 1s;
+            -moz-animation:fadeInUp 1s;
+            animation:fadeInUp 1s;
         }
             #scrollBarLeft
             {
