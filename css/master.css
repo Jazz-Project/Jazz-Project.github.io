@@ -358,7 +358,7 @@ a
     }
     .mainSection
     {
-        height:140vh;
+        height:auto;
     }
     .lvlOneDivide 
     { 
@@ -414,10 +414,6 @@ a
     .lvlOneHide
     {
         display:none;
-    }
-    .mainSection
-    {
-        height:auto;
     }
         .sectionTitle h1
         {
